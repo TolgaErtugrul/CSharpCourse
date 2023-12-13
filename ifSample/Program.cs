@@ -115,3 +115,65 @@ if(puan != 0){
 else
     Console.WriteLine("Yarışmayı kaybettiniz")
 */
+/* 
+ 
+Kullanıcıdan double tipinde 2 tane sayı alsın.
+
+Kullanıcıya işlem türünü sorsun ( t , ç , x ,b ) 
+
+İşlemi uygulayıp sonucu ekranda göstersin.
+
+*/
+
+// Sayı 1: ...
+// Sayı 2: ...
+// İşlem türü giriniz. ( t, ç , x , b)
+// Sonuç : ...
+
+// büyük-küçük hard duyarlılığı olmayacak.
+
+/*
+double sayi1, sayi2;
+string islemTuru;
+
+Console.Write("Sayı 1:");
+sayi1 = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Sayı 2:");
+sayi2 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("İşlem türü giriniz. ( t , ç , x , b");
+islemTuru = Console.ReadLine();
+
+
+if (islemTuru == "t" || islemTuru == "T")
+{
+    Console.WriteLine("Sonuç : " + (sayi1 + sayi2));
+}
+else if (islemTuru == "ç" || islemTuru == "Ç")
+{
+    Console.WriteLine("Sonuç : " + (sayi1 - sayi2));
+}
+else if (islemTuru == "x" || islemTuru == "X")
+{
+   Console.WriteLine("Sonuç : " + (sayi1*sayi2));
+}
+else if (islemTuru == "b" || islemTuru == "B")
+{
+    Console.WriteLine("Sonuç : " + (sayi1/sayi2));
+}
+else
+{
+    Console.WriteLine("Yanlış bir işlem türü girildi.");
+}
+*/
+
+// Büyük küçük harf duyarlılığını kaldırmanın diğer yolu
+
+//if(islemTuru.ToLower() == "t")
+//    Console.WriteLine("toplama yapılacak.");
+
+//if(islemTuru.ToUpper() == "T")
+//    Console.WriteLine("toplama yapılacak");
+
+// tarzında yapılabilir.
